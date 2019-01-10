@@ -2258,7 +2258,10 @@ $(".box-scroll").mCustomScrollbar({
 	theme: 'dark'
 });
 
-
+$("#showForm").click(function() {
+  $(".sec-12__form-block").show(600);
+  $("#showForm").hide();
+});
 
 $(".sec-12-composition-btn").click(function() {
   $(this)
